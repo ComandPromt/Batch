@@ -1,5 +1,5 @@
 @echo off
-cd "C:\Users\ComandPromt\AppData\Local\Microsoft\Windows\Temporary Internet Files"
+cd "C:\Users\%username%\AppData\Local\Microsoft\Windows\Temporary Internet Files"
 DEL *.*  /S /F /Q /A R H S A
 del /f /s /q "%USERPROFILE%\AppData\Local\Temp\*.*"
 rmdir /s /q "C:\Users\%username%\AppData\Local\Temp"
