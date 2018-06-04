@@ -5,12 +5,12 @@ chcp 65001
 ```
 
 # Borrar archivos temporales para Windows Vista y posterior
-# Delete temporary files FOR ViSTA AND LATER
+# Delete temporary files for Windows Vista and later
 
 [Borrar temporales VISTA-LATER](https://github.com/ComandPromt/Batch/blob/master/borrartemp.bat)
 
 # Borrar archivos temporales para Windows XP
-# Delete temporary files FOR Windows XP
+# Delete temporary files for Windows XP
 [Borrar temporales XP](https://github.com/ComandPromt/Batch/blob/master/borrartemp_XP.Cmd)
 
 # Plantilla Menu BAT   (Template)
