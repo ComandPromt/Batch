@@ -20,6 +20,6 @@ chcp 65001
 [Saber IP](https://github.com/ComandPromt/Batch/blob/master/saber_ip.bat)
 
 # Registar DLL/OCX
-~~~batch
+```batch
 regsvr32.exe nombre_de_archivo.ocx
-~~~
+```
