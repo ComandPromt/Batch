@@ -1,0 +1,10 @@
+
+Mensajes_instantaneos_generico-------- puedes poner la IP que quieras
+
+Mensajes_instantanetos_v2-------------- introduce el ultimo numero de la IP 172.20.3.X
+
+Mensajes_instantaneos_v3-------------- introduce el ultimo numero de la IP 192.168.1.X
+
+Mensajes_instantaneos_v4-------------- introduce el ultimo numero de la IP 192.168.2.X
+
+Source-------------------------------- codigo fuente
