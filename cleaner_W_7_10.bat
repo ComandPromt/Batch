@@ -1,23 +1,21 @@
 TITLE CLEANER - EJECUTAR COMO ADMINISTRADOR
+
 prompt $s
-c:
-cd..
-cd..
-cd..
-cd..
-cd..
-cd..
-cd..
-cd..
-cd..
+
 @echo off
+
 COLOR 0A
+
 @cls
 
 set tiempo=%time:~0,5%
+
 set fecha=%date:~0%
+
 set file=%fecha% %tiempo% 
+
 cls
+
 @echo .                         %file%
 @ECHO ...................................................................
 @ECHO .=================================================================.
@@ -38,7 +36,9 @@ cls
 @ECHO ...................................................................
 @ECHO .
 @ECHO .
+
 PAUSE
+
 CLS
 
 @echo .                         %file%
@@ -47,10 +47,15 @@ CLS
 @ECHO .
 @ECHO FINALIZANDO LOS NAVEGADORES..
 @ECHO .
+
 taskkill /F /IM chrome.exe
+
 taskkill /F /IM firefox.exe
+
 taskkill /F /IM iexplorer.exe
+
 taskkill /F /IM opera.exe
+
 @cls
 
 @echo .                         %file%
