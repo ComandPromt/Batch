@@ -5,9 +5,8 @@ prompt $s
 COLOR 0A
 @cls
 
-set tiempo=%time:~0,5%
 set fecha=%date:~0%
-set file=%fecha% %tiempo% 
+set file=%fecha% 
 cls
 @echo .                         %file%
 @ECHO ...................................................................
@@ -29,7 +28,6 @@ cls
 @ECHO ...................................................................
 @ECHO .
 @ECHO .
-PAUSE
 CLS
 
 @echo .                         %file%
@@ -113,6 +111,9 @@ RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
 @ECHO .
 @ECHO .
 @ECHO TRABAJANDO CON "RUNDLL32.EXE"
+@ECHO .
+@ECHO .
+@ECHO TRABAJANDO CON "CLEANMGR.EXE"
 @ECHO .
 
 REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Active Setup Temp Folders" /v  StateFlags0001 /t REG_DWORD /d 2  /f
@@ -248,7 +249,5 @@ rd /s %systemdrive%\$Recycle.Bin /q
 @ECHO VACIANDO LAS PAPELERAS DE "[C:\] y [D:\]"
 @ECHO .
 @ECHO .
-
-@TIMEOUT 5
 
 exit
