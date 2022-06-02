@@ -114,9 +114,6 @@ RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
 @ECHO .
 @ECHO TRABAJANDO CON "RUNDLL32.EXE"
 @ECHO .
-@ECHO .
-@ECHO TRABAJANDO CON "CLEANMGR.EXE"
-@ECHO .
 
 REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Active Setup Temp Folders" /v  StateFlags0001 /t REG_DWORD /d 2  /f
 
